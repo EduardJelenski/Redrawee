@@ -11,9 +11,7 @@
 		842642072C4B3C7200A86B8E /* ConditionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642062C4B3C7200A86B8E /* ConditionalContent.swift */; };
 		842642092C4B3D3B00A86B8E /* ObservationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642082C4B3D3B00A86B8E /* ObservationDemo.swift */; };
 		8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */; };
-		8426420D2C4B3F8900A86B8E /* ListBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420C2C4B3F8900A86B8E /* ListBindable.swift */; };
-		8426420F2C4BFFE500A86B8E /* TestPassingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */; };
-		842642112C4C05B100A86B8E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642102C4C05B100A86B8E /* SwiftUIView.swift */; };
+		8426420D2C4B3F8900A86B8E /* ListBindableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420C2C4B3F8900A86B8E /* ListBindableTest.swift */; };
 		842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642122C4C069D00A86B8E /* PassingValuesDown.swift */; };
 		848CAE5B2C4B364500AD49C3 /* SwiftUIConceptsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */; };
 		848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5C2C4B364500AD49C3 /* ContentView.swift */; };
@@ -28,11 +26,9 @@
 		842642062C4B3C7200A86B8E /* ConditionalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalContent.swift; sourceTree = "<group>"; };
 		842642082C4B3D3B00A86B8E /* ObservationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationDemo.swift; sourceTree = "<group>"; };
 		8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtraction.swift; sourceTree = "<group>"; };
-		8426420C2C4B3F8900A86B8E /* ListBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBindable.swift; sourceTree = "<group>"; };
-		8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPassingDown.swift; sourceTree = "<group>"; };
-		842642102C4C05B100A86B8E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8426420C2C4B3F8900A86B8E /* ListBindableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBindableTest.swift; sourceTree = "<group>"; };
 		842642122C4C069D00A86B8E /* PassingValuesDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingValuesDown.swift; sourceTree = "<group>"; };
-		848CAE572C4B364500AD49C3 /* SwiftUIConcepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIConcepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848CAE572C4B364500AD49C3 /* Redrawee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redrawee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIConceptsApp.swift; sourceTree = "<group>"; };
 		848CAE5C2C4B364500AD49C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848CAE5E2C4B364700AD49C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,35 +67,15 @@
 		842642052C4B3B5F00A86B8E /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				848CAE5C2C4B364500AD49C3 /* ContentView.swift */,
 				848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */,
+				848CAE5C2C4B364500AD49C3 /* ContentView.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
 		};
-		848CAE4E2C4B364500AD49C3 = {
+		84711F862C4C196300B5C0AA /* Redrawee */ = {
 			isa = PBXGroup;
 			children = (
-				848CAE592C4B364500AD49C3 /* SwiftUIConcepts */,
-				848CAE582C4B364500AD49C3 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		848CAE582C4B364500AD49C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				848CAE572C4B364500AD49C3 /* SwiftUIConcepts.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		848CAE592C4B364500AD49C3 /* SwiftUIConcepts */ = {
-			isa = PBXGroup;
-			children = (
-				8426420C2C4B3F8900A86B8E /* ListBindable.swift */,
-				8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */,
-				842642102C4C05B100A86B8E /* SwiftUIView.swift */,
-				842642122C4C069D00A86B8E /* PassingValuesDown.swift */,
 				842642052C4B3B5F00A86B8E /* Application */,
 				848CAE682C4B366300AD49C3 /* Redraws */,
 				842642042C4B3B2C00A86B8E /* ObservableObjects */,
@@ -107,7 +83,23 @@
 				848CAE5E2C4B364700AD49C3 /* Assets.xcassets */,
 				848CAE602C4B364700AD49C3 /* Preview Content */,
 			);
-			path = SwiftUIConcepts;
+			path = Redrawee;
+			sourceTree = "<group>";
+		};
+		848CAE4E2C4B364500AD49C3 = {
+			isa = PBXGroup;
+			children = (
+				84711F862C4C196300B5C0AA /* Redrawee */,
+				848CAE582C4B364500AD49C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848CAE582C4B364500AD49C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848CAE572C4B364500AD49C3 /* Redrawee.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		848CAE602C4B364700AD49C3 /* Preview Content */ = {
@@ -121,6 +113,8 @@
 		848CAE682C4B366300AD49C3 /* Redraws */ = {
 			isa = PBXGroup;
 			children = (
+				8426420C2C4B3F8900A86B8E /* ListBindableTest.swift */,
+				842642122C4C069D00A86B8E /* PassingValuesDown.swift */,
 				848CAE692C4B367E00AD49C3 /* IdModifier.swift */,
 				848CAE6B2C4B36E300AD49C3 /* SubviewExtraction.swift */,
 				842642062C4B3C7200A86B8E /* ConditionalContent.swift */,
@@ -132,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		848CAE562C4B364500AD49C3 /* SwiftUIConcepts */ = {
+		848CAE562C4B364500AD49C3 /* Redrawee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848CAE652C4B364700AD49C3 /* Build configuration list for PBXNativeTarget "SwiftUIConcepts" */;
+			buildConfigurationList = 848CAE652C4B364700AD49C3 /* Build configuration list for PBXNativeTarget "Redrawee" */;
 			buildPhases = (
 				848CAE532C4B364500AD49C3 /* Sources */,
 				848CAE542C4B364500AD49C3 /* Frameworks */,
@@ -144,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIConcepts;
+			name = Redrawee;
 			productName = SwiftUIConcepts;
-			productReference = 848CAE572C4B364500AD49C3 /* SwiftUIConcepts.app */;
+			productReference = 848CAE572C4B364500AD49C3 /* Redrawee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 848CAE522C4B364500AD49C3 /* Build configuration list for PBXProject "SwiftUIConcepts" */;
+			buildConfigurationList = 848CAE522C4B364500AD49C3 /* Build configuration list for PBXProject "Redrawee" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				848CAE562C4B364500AD49C3 /* SwiftUIConcepts */,
+				848CAE562C4B364500AD49C3 /* Redrawee */,
 			);
 		};
 /* End PBXProject section */
@@ -201,16 +195,14 @@
 			files = (
 				842642072C4B3C7200A86B8E /* ConditionalContent.swift in Sources */,
 				848CAE6C2C4B36E300AD49C3 /* SubviewExtraction.swift in Sources */,
-				842642112C4C05B100A86B8E /* SwiftUIView.swift in Sources */,
 				842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */,
 				8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */,
 				848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */,
 				842642092C4B3D3B00A86B8E /* ObservationDemo.swift in Sources */,
-				8426420F2C4BFFE500A86B8E /* TestPassingDown.swift in Sources */,
 				848CAE6A2C4B367E00AD49C3 /* IdModifier.swift in Sources */,
 				842642032C4B377800A86B8E /* View+randomBackground.swift in Sources */,
 				848CAE5B2C4B364500AD49C3 /* SwiftUIConceptsApp.swift in Sources */,
-				8426420D2C4B3F8900A86B8E /* ListBindable.swift in Sources */,
+				8426420D2C4B3F8900A86B8E /* ListBindableTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		848CAE522C4B364500AD49C3 /* Build configuration list for PBXProject "SwiftUIConcepts" */ = {
+		848CAE522C4B364500AD49C3 /* Build configuration list for PBXProject "Redrawee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848CAE632C4B364700AD49C3 /* Debug */,
@@ -414,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848CAE652C4B364700AD49C3 /* Build configuration list for PBXNativeTarget "SwiftUIConcepts" */ = {
+		848CAE652C4B364700AD49C3 /* Build configuration list for PBXNativeTarget "Redrawee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848CAE662C4B364700AD49C3 /* Debug */,
