@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842642032C4B377800A86B8E /* View+randomBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642022C4B377800A86B8E /* View+randomBackground.swift */; };
+		842642072C4B3C7200A86B8E /* ConditionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642062C4B3C7200A86B8E /* ConditionalContent.swift */; };
+		842642092C4B3D3B00A86B8E /* ObservationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642082C4B3D3B00A86B8E /* ObservationDemo.swift */; };
+		8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */; };
+		8426420D2C4B3F8900A86B8E /* ListBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420C2C4B3F8900A86B8E /* ListBindable.swift */; };
+		8426420F2C4BFFE500A86B8E /* TestPassingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */; };
+		842642112C4C05B100A86B8E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642102C4C05B100A86B8E /* SwiftUIView.swift */; };
+		842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642122C4C069D00A86B8E /* PassingValuesDown.swift */; };
 		848CAE5B2C4B364500AD49C3 /* SwiftUIConceptsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */; };
 		848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5C2C4B364500AD49C3 /* ContentView.swift */; };
 		848CAE5F2C4B364700AD49C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CAE5E2C4B364700AD49C3 /* Assets.xcassets */; };
 		848CAE622C4B364700AD49C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CAE612C4B364700AD49C3 /* Preview Assets.xcassets */; };
+		848CAE6A2C4B367E00AD49C3 /* IdModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE692C4B367E00AD49C3 /* IdModifier.swift */; };
+		848CAE6C2C4B36E300AD49C3 /* SubviewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE6B2C4B36E300AD49C3 /* SubviewExtraction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842642022C4B377800A86B8E /* View+randomBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+randomBackground.swift"; sourceTree = "<group>"; };
+		842642062C4B3C7200A86B8E /* ConditionalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalContent.swift; sourceTree = "<group>"; };
+		842642082C4B3D3B00A86B8E /* ObservationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationDemo.swift; sourceTree = "<group>"; };
+		8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtraction.swift; sourceTree = "<group>"; };
+		8426420C2C4B3F8900A86B8E /* ListBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBindable.swift; sourceTree = "<group>"; };
+		8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPassingDown.swift; sourceTree = "<group>"; };
+		842642102C4C05B100A86B8E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		842642122C4C069D00A86B8E /* PassingValuesDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingValuesDown.swift; sourceTree = "<group>"; };
 		848CAE572C4B364500AD49C3 /* SwiftUIConcepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIConcepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIConceptsApp.swift; sourceTree = "<group>"; };
 		848CAE5C2C4B364500AD49C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848CAE5E2C4B364700AD49C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848CAE612C4B364700AD49C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		848CAE692C4B367E00AD49C3 /* IdModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdModifier.swift; sourceTree = "<group>"; };
+		848CAE6B2C4B36E300AD49C3 /* SubviewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewExtraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842642012C4B376500A86B8E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				842642022C4B377800A86B8E /* View+randomBackground.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		842642042C4B3B2C00A86B8E /* ObservableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				842642082C4B3D3B00A86B8E /* ObservationDemo.swift */,
+			);
+			path = ObservableObjects;
+			sourceTree = "<group>";
+		};
+		842642052C4B3B5F00A86B8E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				848CAE5C2C4B364500AD49C3 /* ContentView.swift */,
+				848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		848CAE4E2C4B364500AD49C3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +96,14 @@
 		848CAE592C4B364500AD49C3 /* SwiftUIConcepts */ = {
 			isa = PBXGroup;
 			children = (
-				848CAE5A2C4B364500AD49C3 /* SwiftUIConceptsApp.swift */,
-				848CAE5C2C4B364500AD49C3 /* ContentView.swift */,
+				8426420C2C4B3F8900A86B8E /* ListBindable.swift */,
+				8426420E2C4BFFE500A86B8E /* TestPassingDown.swift */,
+				842642102C4C05B100A86B8E /* SwiftUIView.swift */,
+				842642122C4C069D00A86B8E /* PassingValuesDown.swift */,
+				842642052C4B3B5F00A86B8E /* Application */,
+				848CAE682C4B366300AD49C3 /* Redraws */,
+				842642042C4B3B2C00A86B8E /* ObservableObjects */,
+				842642012C4B376500A86B8E /* Utils */,
 				848CAE5E2C4B364700AD49C3 /* Assets.xcassets */,
 				848CAE602C4B364700AD49C3 /* Preview Content */,
 			);
@@ -65,6 +116,17 @@
 				848CAE612C4B364700AD49C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		848CAE682C4B366300AD49C3 /* Redraws */ = {
+			isa = PBXGroup;
+			children = (
+				848CAE692C4B367E00AD49C3 /* IdModifier.swift */,
+				848CAE6B2C4B36E300AD49C3 /* SubviewExtraction.swift */,
+				842642062C4B3C7200A86B8E /* ConditionalContent.swift */,
+				8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */,
+			);
+			path = Redraws;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842642072C4B3C7200A86B8E /* ConditionalContent.swift in Sources */,
+				848CAE6C2C4B36E300AD49C3 /* SubviewExtraction.swift in Sources */,
+				842642112C4C05B100A86B8E /* SwiftUIView.swift in Sources */,
+				842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */,
+				8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */,
 				848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */,
+				842642092C4B3D3B00A86B8E /* ObservationDemo.swift in Sources */,
+				8426420F2C4BFFE500A86B8E /* TestPassingDown.swift in Sources */,
+				848CAE6A2C4B367E00AD49C3 /* IdModifier.swift in Sources */,
+				842642032C4B377800A86B8E /* View+randomBackground.swift in Sources */,
 				848CAE5B2C4B364500AD49C3 /* SwiftUIConceptsApp.swift in Sources */,
+				8426420D2C4B3F8900A86B8E /* ListBindable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +360,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eduardelenskii.SwiftUIConcepts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +385,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +393,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eduardelenskii.SwiftUIConcepts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
