@@ -1,3 +1,5 @@
+# 🛠️ Development in progress
+
 #  Redrawee — Investigating SwiftUI Views Redrawing Patterns
 
 An iOS app that investigates effects of using different approaches in building view hierarchies and state managment on views redraws:
