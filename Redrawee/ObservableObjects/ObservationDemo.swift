@@ -1,6 +1,6 @@
 //
 //  ObservationDemo.swift
-//  SwiftUIConcepts
+//  Redrawee
 //
 //  Created by eelenskiy on 20.07.2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @Observable
-final class Student {
+final class St {
    var name: String = ""
    var hasAssignments: Bool
 
@@ -19,17 +19,26 @@ final class Student {
    }
 }
 
+final class StOO: ObservableObject {
+   @Published var name: String = ""
+   @Published var hasAssignments: Bool
+
+
+   init(name: String, hasAssignments: Bool) {
+       self.name = name
+       self.hasAssignments = hasAssignments
+   }
+}
+
 struct ObservationDemo: View {
     
-    @State var student = Student(name: "Eduard", hasAssignments: true)
+//    @State var student = St(name: "Eduard", hasAssignments: true)
+    @StateObject var student = StOO(name: "Eduard", hasAssignments: true)
     
     var body: some View {
-        Text(student.name)
-            .padding()
-            .debug()
-        Text("Has assignments: \(student.hasAssignments)")
-            .padding()
-            .debug()
+        StudentName(name: student.name)
+        
+        HasAssigView(hasAssignments: student.hasAssignments)
         
         Button("Change name") {
             student.name = "Masha"
@@ -45,6 +54,29 @@ struct ObservationDemo: View {
     }
 }
 
+struct StudentName: View {
+    
+    let name: String
+    
+    var body: some View {
+        Text(name)
+            .padding()
+            .randomBackground()
+    }
+}
+
+struct HasAssigView: View {
+    
+    let hasAssignments: Bool
+    
+    var body: some View {
+        Text("Has assignments: \(hasAssignments)")
+            .padding()
+            .randomBackground()
+    }
+}
+
 #Preview {
     ObservationDemo()
 }
+

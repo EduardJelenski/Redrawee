@@ -1,6 +1,6 @@
 //
 //  View+randomBackground.swift
-//  SwiftUIConcepts
+//  Redrawee
 //
 //  Created by eelenskiy on 20.07.2024.
 //
@@ -10,7 +10,11 @@ import SwiftUI
 extension View {
     
     func randomBackground() -> some View {
-        modifier(RandomBackgroundModifier())
+        background(Color(
+            red: .random(in: 0...1),
+            green: .random(in: 0...1),
+            blue: .random(in: 0...1)
+        ))
     }
     
     func debug() -> some View {

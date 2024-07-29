@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUIConcepts
+//  Redrawee
 //
 //  Created by eelenskiy on 20.07.2024.
 //
@@ -19,48 +19,62 @@ struct ContentView: View {
                     })
                     NavigationLink("Subview Extraction") {
                         SubviewExtraction()
-                    }
-                    NavigationLink("Conditional Content") {
-                        ConditionalContent()
+                            .navigationTitle("Subview Extraction")
+                            .navigationBarTitleDisplayMode(.inline)
                     }
                     NavigationLink("View Modifier Extraction") {
                         ViewModifierExtraction()
                             .navigationTitle("ViewModifier Extraction")
                             .navigationBarTitleDisplayMode(.inline)
                     }
+                    NavigationLink("@ViewBuilder (_ConditionalContent)") {
+                        ConditionalContent()
+                    }
+                }
+                
+                NavigationLink("Takeaways") {
+                    Text("")
+                        .navigationTitle("Takeaways")
+                }
+                
+                Section("State Management") {
                     NavigationLink("Passing Values Down") {
                         PassingValuesDownView()
                             .navigationTitle("Passing Values Down")
                             .navigationBarTitleDisplayMode(.inline)
                     }
+                    NavigationLink(destination: {
+                        ObservationDemo()
+                    }, label: {
+                        Text("Observable").monospaced()
+                        + Text(" vs ObservableObject")
+                    })
+                    NavigationLink("@StateObject Wrapper") {
+                        SubviewExtraction()
+                    }
+                    NavigationLink("@ObservableObject Wrapper") {
+                        ConditionalContent()
+                    }
+                    
                 }
                 
                 NavigationLink("Takeaways") {
-                    EmptyView()
-                }
-                
-                Section("Observing Objects") {
-                    NavigationLink("Observation Approach") {
-                        ObservationDemo()
-                    }
-                    NavigationLink("@StateObject Wrapper") {
-                        SubviewExtraction()
-                    }
-                    NavigationLink("@ObservableObject Wrapper") {
-                        ConditionalContent()
-                    }
+                    Text("")
+                        .navigationTitle("Takeaways")
                 }
                 
                 Section("Animating changes") {
-                    NavigationLink("Conditional Content vs ternary operator") {
+                    NavigationLink("Conditional Content") {
                         ObservationDemo()
                     }
-                    NavigationLink("@StateObject Wrapper") {
-                        SubviewExtraction()
+                    NavigationLink("Ternary Operator") {
+                        ObservationDemo()
                     }
-                    NavigationLink("@ObservableObject Wrapper") {
-                        ConditionalContent()
-                    }
+                }
+                
+                NavigationLink("Takeaways") {
+                    Text("")
+                        .navigationTitle("Takeaways")
                 }
             }
             .navigationTitle("@Redrawee")

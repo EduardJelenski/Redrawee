@@ -1,26 +1,52 @@
 //
-//  SubviewExtraction.swift
-//  SwiftUIConcepts
+//  EquatableModifier.swift
+//  Redrawee
 //
 //  Created by eelenskiy on 20.07.2024.
 //
 
+// проверить что будет, если прокинуть STate, Binding в инит, но не использовать их — будут ли перерисовки
+
+// https://swiftui-lab.com/equatableview/
+// https://fatbobman.com/en/posts/avoid_repeated_calculations_of_swiftui_views/
+// https://www.donnywals.com/understanding-how-and-when-swiftui-decides-to-redraw-views/
+// https://t.me/contravariance/54
+
 import SwiftUI
 
-struct SubviewExtraction: View {
+struct EquatableReceiverView: View/*, Equatable*/ {
+//    static func == (lhs: EquatableReceiverView, rhs: EquatableReceiverView) -> Bool {
+//        lhs.value == rhs.value
+//    }
+
+    let value: String
+    let v: Bool
     
-    @State var value = true
+    var body: some View {
+        Text("Current value is")// \(value)")
+            .padding()
+            .randomBackground()
+    }
+    
+    
+}
+
+struct EquatableModifier: View {
+    
+    @State var value = "123"
+    @State var v = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Experiment")
                 .font(.system(size: 24, weight: .semibold, design: .default))
         
-                nonExtractedView
-                ExtractedView()
-            
-            Toggle("Toggle value", isOn: $value)
-                .toggleStyle(.button)
+            EquatableReceiverView(value: value, v: v)
+//                .equatable()
+                
+            TextField("Value", text: $value)
+                .textFieldStyle(.roundedBorder)
+            Toggle("v", isOn: $v)
             
             Text("Explanation")
                 .font(.system(size: 24, weight: .semibold, design: .default))
@@ -36,33 +62,20 @@ struct SubviewExtraction: View {
     }
     
     var nonExtractedView: some View {
-        HStack {
-            Image(systemName: "shippingbox")
+        VStack {
             Text("Non-extracted View Label")
-        }
-        .frame(maxWidth: .infinity)
-        .padding()
-        .randomBackground()
-    }
-}
-
-struct ExtractedView: View {
-    
-    var body: some View {
-        HStack {
             Image(systemName: "shippingbox.and.arrow.backward")
-            Text("Extracted View Label")
         }
-        .padding()
         .frame(maxWidth: .infinity)
+        .padding()
         .randomBackground()
     }
 }
 
 #Preview {
     NavigationStack {
-        SubviewExtraction()
-            .navigationTitle("Subview Extraction")
+        EquatableModifier()
+            .navigationTitle("Equatable View")
             .navigationBarTitleDisplayMode(.inline)
     }
 }

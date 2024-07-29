@@ -1,6 +1,6 @@
 //
 //  ListBindable.swift
-//  SwiftUIConcepts
+//  Redrawee
 //
 //  Created by eelenskiy on 20.07.2024.
 //
