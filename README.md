@@ -11,7 +11,7 @@ An iOS app that investigates effects of using different approaches in building v
 - Conforming your views to `Equatable` protocol and usage of `.equatable()` modifier 
 - Comparison of `ObservableObject` and `@Observable` approaches 
 
-By Eduard Jeleński, 2024
+By Eduard Jeleński, 2024
 
 [SwiftUI Views Redrawing Patterns app on GitHub](https://github.com/EduardJelenski/Redrawee>)<br>
 
