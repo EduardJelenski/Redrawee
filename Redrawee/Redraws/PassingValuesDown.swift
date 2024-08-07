@@ -163,3 +163,30 @@ struct PassingValuesDownView: View {
 #Preview("Environment Example") {
     EnvironmentExample.EnvironmentEmitterView()
 }
+
+struct BindingEmitterView: View {
+    
+    @State var value = true
+    
+    var body: some View {
+        BindingPassthroughView(unusedValue: $value)
+    }
+}
+
+struct BindingPassthroughView: View {
+    
+    @Binding var unusedValue: Bool
+    
+    var body: some View {
+        BindingReceiverView(usedValue: $unusedValue)
+    }
+}
+
+struct BindingReceiverView: View {
+    
+    @Binding var usedValue: Bool
+    
+    var body: some View {
+        Text("Current value is \(usedValue)")
+    }
+}

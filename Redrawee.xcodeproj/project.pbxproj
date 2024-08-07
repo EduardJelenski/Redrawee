@@ -14,6 +14,9 @@
 		8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */; };
 		8426420D2C4B3F8900A86B8E /* TestListBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426420C2C4B3F8900A86B8E /* TestListBindable.swift */; };
 		842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842642122C4C069D00A86B8E /* PassingValuesDown.swift */; };
+		8488062E2C62BF95009EF5D9 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488062D2C62BF95009EF5D9 /* DemoView.swift */; };
+		848806302C63C199009EF5D9 /* EquatableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488062F2C63C199009EF5D9 /* EquatableConformance.swift */; };
+		848806322C63CF65009EF5D9 /* WorkInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848806312C63CF65009EF5D9 /* WorkInProgressView.swift */; };
 		848CAE5B2C4B364500AD49C3 /* RedraweeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5A2C4B364500AD49C3 /* RedraweeApp.swift */; };
 		848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CAE5C2C4B364500AD49C3 /* ContentView.swift */; };
 		848CAE5F2C4B364700AD49C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CAE5E2C4B364700AD49C3 /* Assets.xcassets */; };
@@ -24,8 +27,13 @@
 		848F58612C56F13B0064CDF1 /* TestObservableBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F58602C56F13B0064CDF1 /* TestObservableBranch.swift */; };
 		849538F72C52C585002C9B59 /* ForEachBindingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849538F62C52C585002C9B59 /* ForEachBindingTest.swift */; };
 		849538F92C52CB39002C9B59 /* TestObscureAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849538F82C52CB39002C9B59 /* TestObscureAnyView.swift */; };
+		84A7EF3F2C5C50F7001D2C24 /* TestStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EF3E2C5C50F7001D2C24 /* TestStateObject.swift */; };
 		84BED6E22C4E52810049BAC9 /* TestEquatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BED6E12C4E52810049BAC9 /* TestEquatableView.swift */; };
 		84BED6E42C4E70A50049BAC9 /* TestFatBobMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BED6E32C4E70A50049BAC9 /* TestFatBobMan.swift */; };
+		84C59EBE2C5D7E5800A1964D /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59EBD2C5D7E5800A1964D /* ObservableObjects.swift */; };
+		84C59EC42C5D8C0400A1964D /* ExperimentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59EC32C5D8C0400A1964D /* ExperimentPresentation.swift */; };
+		84C59EC62C5E55F800A1964D /* View+navigationTitleDisplayModeIfApplicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59EC52C5E55F800A1964D /* View+navigationTitleDisplayModeIfApplicable.swift */; };
+		84C59EC82C5FA84000A1964D /* TestViewBuilderOnLargeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C59EC72C5FA84000A1964D /* TestViewBuilderOnLargeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,9 @@
 		8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtraction.swift; sourceTree = "<group>"; };
 		8426420C2C4B3F8900A86B8E /* TestListBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListBindable.swift; sourceTree = "<group>"; };
 		842642122C4C069D00A86B8E /* PassingValuesDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingValuesDown.swift; sourceTree = "<group>"; };
+		8488062D2C62BF95009EF5D9 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		8488062F2C63C199009EF5D9 /* EquatableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableConformance.swift; sourceTree = "<group>"; };
+		848806312C63CF65009EF5D9 /* WorkInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkInProgressView.swift; sourceTree = "<group>"; };
 		848CAE572C4B364500AD49C3 /* Redrawee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redrawee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CAE5A2C4B364500AD49C3 /* RedraweeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedraweeApp.swift; sourceTree = "<group>"; };
 		848CAE5C2C4B364500AD49C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,8 +58,13 @@
 		848F58602C56F13B0064CDF1 /* TestObservableBranch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableBranch.swift; sourceTree = "<group>"; };
 		849538F62C52C585002C9B59 /* ForEachBindingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBindingTest.swift; sourceTree = "<group>"; };
 		849538F82C52CB39002C9B59 /* TestObscureAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObscureAnyView.swift; sourceTree = "<group>"; };
+		84A7EF3E2C5C50F7001D2C24 /* TestStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStateObject.swift; sourceTree = "<group>"; };
 		84BED6E12C4E52810049BAC9 /* TestEquatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEquatableView.swift; sourceTree = "<group>"; };
 		84BED6E32C4E70A50049BAC9 /* TestFatBobMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFatBobMan.swift; sourceTree = "<group>"; };
+		84C59EBD2C5D7E5800A1964D /* ObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjects.swift; sourceTree = "<group>"; };
+		84C59EC32C5D8C0400A1964D /* ExperimentPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentPresentation.swift; sourceTree = "<group>"; };
+		84C59EC52C5E55F800A1964D /* View+navigationTitleDisplayModeIfApplicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigationTitleDisplayModeIfApplicable.swift"; sourceTree = "<group>"; };
+		84C59EC72C5FA84000A1964D /* TestViewBuilderOnLargeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewBuilderOnLargeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				842642022C4B377800A86B8E /* View+randomBackground.swift */,
+				84C59EC52C5E55F800A1964D /* View+navigationTitleDisplayModeIfApplicable.swift */,
+				84C59EC32C5D8C0400A1964D /* ExperimentPresentation.swift */,
+				848806312C63CF65009EF5D9 /* WorkInProgressView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -129,10 +148,13 @@
 			isa = PBXGroup;
 			children = (
 				842642122C4C069D00A86B8E /* PassingValuesDown.swift */,
+				8488062F2C63C199009EF5D9 /* EquatableConformance.swift */,
+				8488062D2C62BF95009EF5D9 /* DemoView.swift */,
 				848CAE692C4B367E00AD49C3 /* IdModifier.swift */,
 				848CAE6B2C4B36E300AD49C3 /* SubviewExtraction.swift */,
 				842642062C4B3C7200A86B8E /* ConditionalContent.swift */,
 				8426420A2C4B3EC700A86B8E /* ViewModifierExtraction.swift */,
+				84C59EBD2C5D7E5800A1964D /* ObservableObjects.swift */,
 			);
 			path = Redraws;
 			sourceTree = "<group>";
@@ -147,7 +169,9 @@
 				849538F82C52CB39002C9B59 /* TestObscureAnyView.swift */,
 				848F585E2C53DDAE0064CDF1 /* TestRawState.swift */,
 				8426420C2C4B3F8900A86B8E /* TestListBindable.swift */,
+				84C59EC72C5FA84000A1964D /* TestViewBuilderOnLargeData.swift */,
 				848F58602C56F13B0064CDF1 /* TestObservableBranch.swift */,
+				84A7EF3E2C5C50F7001D2C24 /* TestStateObject.swift */,
 			);
 			path = TestingHypothesis;
 			sourceTree = "<group>";
@@ -222,22 +246,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C59EC62C5E55F800A1964D /* View+navigationTitleDisplayModeIfApplicable.swift in Sources */,
 				849538F92C52CB39002C9B59 /* TestObscureAnyView.swift in Sources */,
 				842642072C4B3C7200A86B8E /* ConditionalContent.swift in Sources */,
 				848CAE6C2C4B36E300AD49C3 /* SubviewExtraction.swift in Sources */,
+				84A7EF3F2C5C50F7001D2C24 /* TestStateObject.swift in Sources */,
+				84C59EC42C5D8C0400A1964D /* ExperimentPresentation.swift in Sources */,
 				848F58612C56F13B0064CDF1 /* TestObservableBranch.swift in Sources */,
 				849538F72C52C585002C9B59 /* ForEachBindingTest.swift in Sources */,
 				842642132C4C069D00A86B8E /* PassingValuesDown.swift in Sources */,
 				8426420B2C4B3EC700A86B8E /* ViewModifierExtraction.swift in Sources */,
 				848CAE5D2C4B364500AD49C3 /* ContentView.swift in Sources */,
 				84BED6E42C4E70A50049BAC9 /* TestFatBobMan.swift in Sources */,
+				848806302C63C199009EF5D9 /* EquatableConformance.swift in Sources */,
 				848F585F2C53DDAE0064CDF1 /* TestRawState.swift in Sources */,
 				8413AAD72C4EE90F001B3845 /* Test.swift in Sources */,
 				842642092C4B3D3B00A86B8E /* ObservationDemo.swift in Sources */,
 				848CAE6A2C4B367E00AD49C3 /* IdModifier.swift in Sources */,
+				84C59EBE2C5D7E5800A1964D /* ObservableObjects.swift in Sources */,
 				842642032C4B377800A86B8E /* View+randomBackground.swift in Sources */,
 				84BED6E22C4E52810049BAC9 /* TestEquatableView.swift in Sources */,
+				848806322C63CF65009EF5D9 /* WorkInProgressView.swift in Sources */,
+				8488062E2C62BF95009EF5D9 /* DemoView.swift in Sources */,
 				848CAE5B2C4B364500AD49C3 /* RedraweeApp.swift in Sources */,
+				84C59EC82C5FA84000A1964D /* TestViewBuilderOnLargeData.swift in Sources */,
 				8426420D2C4B3F8900A86B8E /* TestListBindable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +420,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eduardelenskii.SwiftUIConcepts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -421,7 +453,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eduardelenskii.SwiftUIConcepts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;

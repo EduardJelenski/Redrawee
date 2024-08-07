@@ -72,7 +72,7 @@ struct IconModifier: ViewModifier {
     NavigationStack {
         ViewModifierExtraction()
             .navigationTitle("ViewModifier Extraction")
-            .navigationBarTitleDisplayMode(.inline)
+        //            .navigationTitleDisplayModeIfApplicable(.inline)
     }
     
 }

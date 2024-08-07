@@ -12,27 +12,15 @@ struct MyView: View {
     @State var str = false
     
     var body: some View {
-        Test(str: $str)
-            .printType()
-        Toggle("123", isOn: $str)
+        HStack {
+            Text("hkkhlhlk")
+            Divider()
+                .fixedSize()
+            Text("hkkhlhlk a;sldla;skdl;ak sa;sldkl;askd;askd;laksdkas;dlk as;dla;sldkal;skd;asl asl;dka;sdk")
+        }
     }
 }
 
 #Preview {
     MyView()
-}
-    
-struct Test: View {
-    
-    @Binding var s: Bool
-    
-    init(str: Binding<Bool>) {
-        _s = str
-    }
-    
-    var body: some View {
-        Text("Hello, World!")
-//            .randomBackground()
-            
-    }
 }

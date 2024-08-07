@@ -76,6 +76,6 @@ struct EquatableModifier: View {
     NavigationStack {
         EquatableModifier()
             .navigationTitle("Equatable View")
-            .navigationBarTitleDisplayMode(.inline)
+//            .navigationTitleDisplayModeIfApplicable(.inline)
     }
 }

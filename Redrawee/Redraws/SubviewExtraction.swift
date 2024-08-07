@@ -12,18 +12,20 @@ struct SubviewExtraction: View {
     @State var value = true
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            Text("Experiment")
-                .font(.system(size: 24, weight: .semibold, design: .default))
         
+        ExperimentPresentation(experiment: {
+            VStack(alignment: .center, spacing: 16) {
                 nonExtractedView
+                    .printType()
                 ExtractedView()
+                    .printType()
+                
+                Toggle("Toggle value", isOn: $value)
+                    .toggleStyle(.button)
+            }
+        
             
-            Toggle("Toggle value", isOn: $value)
-                .toggleStyle(.button)
-            
-            Text("Explanation")
-                .font(.system(size: 24, weight: .semibold, design: .default))
+        }, explanation: {
             Text(
             """
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -31,8 +33,7 @@ struct SubviewExtraction: View {
             )
             
             Spacer()
-        }
-        .padding()
+        })
     }
     
     var nonExtractedView: some View {
@@ -63,6 +64,6 @@ struct ExtractedView: View {
     NavigationStack {
         SubviewExtraction()
             .navigationTitle("Subview Extraction")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitleDisplayModeIfApplicable(.inline)
     }
 }

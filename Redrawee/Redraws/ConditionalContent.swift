@@ -49,6 +49,6 @@ struct ConditionalContent: View {
     NavigationStack {
         ConditionalContent()
             .navigationTitle("Conditional Content")
-            .navigationBarTitleDisplayMode(.inline)
+//            .navigationTitleDisplayModeIfApplicable(.inline)
     }
 }
